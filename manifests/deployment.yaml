@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: appxposer
+  name: appxposer
+  namespace: appxposer
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: appxposer
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: appxposer
+    spec:
+      containers:
+      - image: lusciousmaestro/appxposer:1.0
+        name: appxposer
+        resources: {}
+      serviceAccountName: appxposer-sa
+      
+status: {}
