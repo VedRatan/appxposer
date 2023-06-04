@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: List
-items:
-- !include /manifests/namespace.yaml
-- !include /manifests/sa.yaml
-- !include /manifests/clusterrole.yaml
-- !include /manifests/clusterrolebinding.yaml
-- !include /manifests/deployment.yaml
-
