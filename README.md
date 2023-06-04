@@ -9,3 +9,6 @@ A simple k8s controller to expose your application to the extenal world
 - run `go build`
 - run `make deploy` to deploy this controller to the k8s cluster
 - to delete this controller from your cluster run `make delete`
+
+
+### Drop a star, if found interesting :)
